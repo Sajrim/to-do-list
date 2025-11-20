@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #eee;
+}
+
+.button {
+    cursor: pointer;
+}
+
+
+.button:disabled {
+    cursor: not-allowed;
+}

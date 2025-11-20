@@ -1,0 +1,59 @@
+.section {
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.section__header {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section__headerTasks {
+    font-size: 22px;
+    padding: 20px;
+    margin: 0;
+}
+
+.section__heading {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+@media(max-width: 767px) {
+    .section__heading {
+        grid-template-columns: 1fr;
+    }
+}
+
+.section__button {
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: hsl(180, 100%, 30%);
+    transition: 0.4s;
+}
+
+.section__button:hover {
+    color: hsl(180, 100%, 35%);
+}
+
+.section__button:active {
+    color: hsl(180, 100%, 40%);
+}
+
+.section__button:disabled {
+    color: #ccc;
+}
+
+.section__body {
+    padding: 20px;
+}
