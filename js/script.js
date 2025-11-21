@@ -36,3 +36,8 @@ const markAllTasksDone = () => {
   }));
   render();
 };
+
+const toggleHideDoneTasks = () => {
+  hideDoneTasks = !hideDoneTasks;
+  render();
+};
