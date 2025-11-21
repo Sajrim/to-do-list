@@ -23,3 +23,16 @@ const toggleTaskDone = (taskIndex) => {
   ];
   render();
 };
+
+const addNewTask = (newTaskContent) => {
+  tasks = [...tasks, { content: newTaskContent }];
+  render();
+};
+
+const markAllTasksDone = () => {
+  tasks = tasks.map((task) => ({
+    ...task,
+    done: true,
+  }));
+  render();
+};
