@@ -97,3 +97,17 @@ const renderButtons = () => {
     </button>
   `;
 };
+
+const bindButtonsEvents = () => {
+  const buttonAllDone = document.querySelector(".js-buttonAllDone");
+
+  if (buttonAllDone) {
+    buttonAllDone.addEventListener("click", markAllTasksDone);
+  }
+
+  const buttonHideDone = document.querySelector(".js-buttonHideDone");
+
+  if (buttonHideDone) {
+    buttonHideDone.addEventListener("click", toggleHideDoneTasks);
+  }
+};
