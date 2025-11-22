@@ -111,3 +111,12 @@ const bindButtonsEvents = () => {
     buttonHideDone.addEventListener("click", toggleHideDoneTasks);
   }
 };
+
+const render = () => {
+  renderTasks();
+  renderButtons();
+  bindButtonsEvents();
+  bindRemoveEvents();
+  bindToggleDoneEvents();
+};
+
