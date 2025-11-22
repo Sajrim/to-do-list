@@ -51,3 +51,13 @@ const bindRemoveEvents = () => {
     });
   });
 };
+
+const bindToggleDoneEvents = () => {
+  const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
+
+  toggleDoneButtons.forEach((toggleDoneButton, taskIndex) => {
+    toggleDoneButton.addEventListener("click", () => {
+      toggleTaskDone(taskIndex);
+    });
+  });
+};
