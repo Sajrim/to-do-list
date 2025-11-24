@@ -1,5 +1,5 @@
 # A to-do list website that, can help you organise your tasks 
-[Click here to go to the website]([https://sajrim.github.io/to-do-list/])
+[Click here to go to the website](https://sajrim.github.io/to-do-list/)
 
 ## Add Tasks!
 ![addTask](https://github.com/user-attachments/assets/7a549ace-f644-467d-8f3a-5c0818750d3e)
